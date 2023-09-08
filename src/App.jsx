@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
+import Users from './Users'
 
 function App() {
 
@@ -19,7 +20,7 @@ function App() {
 
   return (
     <>
-
+    <Users></Users>
     <Counter></Counter>
 
       <h1>Vite + React</h1>
